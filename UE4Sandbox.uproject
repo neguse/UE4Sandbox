@@ -2,5 +2,18 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{E268C85F-4F6E-D71B-CC25-D9AE3701CD06}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UE4Sandbox",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GitSourceControl",
+			"Enabled": true
+		}
+	]
 }
